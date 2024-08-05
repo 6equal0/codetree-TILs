@@ -13,7 +13,7 @@ int main() {
     }
 
     for(int i = 1; i < n; i++){
-        temp = arr[i] = arr[i-1];
+        temp = arr[i] - arr[i-1];
 
         if(temp < min){
             min = temp;

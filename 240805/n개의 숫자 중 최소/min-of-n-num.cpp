@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    int n, min = INT_MAX, count = 1, temp;
+    int n, min = INT_MAX, count = 0, temp;
 
     cin >> n;
 
